@@ -1,0 +1,15 @@
+package top.mitday.shiro_combat;
+
+import org.mybatis.spring.annotation.MapperScan;
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+@MapperScan("top.mitday.shiro_combat.mapper")
+public class ShiroCombatApplication {
+
+    public static void main(String[] args) {
+        SpringApplication.run(ShiroCombatApplication.class, args);
+    }
+
+}
